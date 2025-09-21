@@ -9,9 +9,9 @@ export const Menu = {
       label: "Perfil",
       section: "#profile",
       className: "bx-user",
-    },
+    },    
     {
-      label: "Skills",
+      label: "Tecnologías, Capacidades e Idiomas",
       section: "#skills",
       className: "bx-receipt",
     },
