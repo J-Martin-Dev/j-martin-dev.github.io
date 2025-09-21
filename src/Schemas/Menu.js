@@ -11,7 +11,7 @@ export const Menu = {
       className: "bx-user",
     },    
     {
-      label: "Tecnologías, Capacidades e Idiomas",
+      label: "Skills",
       section: "#skills",
       className: "bx-receipt",
     },

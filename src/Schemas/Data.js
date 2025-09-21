@@ -1,7 +1,7 @@
 export const Data = {
   profile: {
     name: "Jesús Martín",
-    ocupation: "Automation software developer",
+    ocupation: "Software developer",
     location: "Valencia, España",
     email: "txus.martin.fernandez@gmail.com",
     telephone: "+34 675407600",
@@ -14,31 +14,38 @@ export const Data = {
   },
   skills: {
     technicalLabel: "Tecnologías",
-    softLabel: "Capacidades",
+    programmingLabel: "Lenguajes",
+    capacityLabel: "Capacidades",
     languageLabel: "Idiomas",
     technicalSkills: [
-      "TIA Portal",
-      "Step 7",
-      "WinCC",
-      "WinCC Unified,",
-      "RSLogix",
-      "FactoryTalk", 
+      "TIA Portal, Step 7",      
+      "WinCC flexible, WinCC Unified",      
+      "RSLogix, FactoryTalk",      
       "Phoenix Contact",
       "Omron/Yamaha RCX480",    
-      "Cognex 5000/7000",
-      "Codesys", 
+      "Cognex 5000/7000",      
       "OPC-UA",  
-      ".NET",  
-      "C,C++,C#",
+      ".NET",        
       "WPF",
+      "MVVM",
       "Docker",
-      "React",
-      "Javascript",
+      "React",      
       "Nodejs",            
       "SQL",
       "Git",
     ],
-    softSkills: [
+    programmingSkills: [
+      "Ladder",
+      "FBD",
+      "ST",
+      "Codesys", 
+      "C/C++",
+      "C#",
+      "XAML",
+      "Javascript",
+      "HTML/CSS",      
+    ],
+    capacitySkills: [
       "Capacidad de análisis",
       "Resolución de Problemas",
       "Pensamiento Crítico",
@@ -75,12 +82,33 @@ export const Data = {
     works: [
       {
         title: "Ingeniero de control",
-        period: "2007.9 - 2012.9",
-        company: "Mecalux S.A",
+        period: "2021.5 - Presente",
+        company: "GH Induction",
         description: [
-          "Programación de maquinaria destinada a la almaceneria y manejo de cargas.",
-          "Desarrollo de aplicaciones en Step 7 y entornos de usuario en WinCC Flexible.",
-          "Desarrollo de aplicaciones y entornos de usuario en soft-plc propietario.",
+          "Programación de maquinaria industrial para procesos de inducción.",
+          "Desarrollo de aplicaciones en TIA Portal, RSLogix y FactoryTalk.",          
+          "Desarrollo y mantenimiento de aplicaciones de monitorización de procesos.",
+          "Servicio de asistencia post-venta.",
+        ],
+      },
+      {
+        title: "Responsable técnico",
+        period: "2020.1 - 2021.4",
+        company: "Órbita Ingenieria S.L.",
+        description: [
+          "Gestión de departamento de programación y asesoramiento técnico en ofertas.",
+          "Servicio de asistencia post-venta.",
+        ],
+      },
+       {
+        title: "Ingeniero de proyectos",
+        period: "2014.4 - 2020.1",
+        company: "Órbita Ingenieria S.L.",
+        description: [
+          "Programación de maquinaria para el sector del automovil, cosmético y alimentación.",
+          "Desarrollo de aplicaciones en TIA Portal, RSLogix.",
+          "Desarrollo de entornos de usuario en WinCC y FactoryTalk.",
+          "Desarrollo y mantenimiento de aplicaciones para disposivos embebidos con Windows CE.",
           "Servicio de asistencia post-venta.",
         ],
       },
@@ -94,180 +122,63 @@ export const Data = {
         ],
       },
       {
-        title: "Ingeniero de proyectos",
-        period: "2014.4 - 2020.1",
-        company: "Órbita Ingenieria S.L.",
-        description: [
-          "Programación de maquinaria para el sector del automovil, cosmético y alimentación.",
-          "Desarrollo de aplicaciones en TIA Portal, RSLogix.",
-          "Desarrollo de entornos de usuario en WinCC y FactoryTalk.",
-          "Desarrollo y mantenimiento de aplicaciones para disposivos embebidos con Windows CE.",
-          "Servicio de asistencia post-venta.",
-        ],
-      },
-      {
-        title: "Responsable técnico",
-        period: "2020.1 - 2021.4",
-        company: "Órbita Ingenieria S.L.",
-        description: [
-          "Gestión de departamento de programación y asesoramiento técnico en ofertas.",
-          "Servicio de asistencia post-venta.",
-        ],
-      },
-      {
         title: "Ingeniero de control",
-        period: "2021.5 - Presente",
-        company: "GH Induction",
+        period: "2007.9 - 2012.9",
+        company: "Mecalux S.A",
         description: [
-          "Programación de maquinaria industrial para procesos de inducción.",
-          "Desarrollo de aplicaciones en TIA Portal, RSLogix y FactoryTalk.",          
-          "Desarrollo y mantenimiento de aplicaciones de monitorización de procesos.",
+          "Programación de maquinaria destinada a la almaceneria y manejo de cargas.",
+          "Desarrollo de aplicaciones en Step 7 y entornos de usuario en WinCC Flexible.",
+          "Desarrollo de aplicaciones y entornos de usuario en soft-plc propietario.",
           "Servicio de asistencia post-venta.",
         ],
-      },
+      },              
     ],
-    academic: [
+    academic: [       
       {
         career: "Ingeniería técnica en telecomunicaciones, esp. Sistemas Electrónicos",
         date: "2007",
         institution: "Universidad de Valencia",
       },
     ],
-    proyects: [
+    proyects: [         
       {
-        name: "Orliman - La pobla de Vallbona",
-        company: "Mecalux S.A.",
-        period: "2007.10 - 2007.12",
+        name: "GKN Alamance - EEUU",
+        company: "GH Induction",
+        period: "2025.6 - 2025.9",
         description: [
-          "Puesta en marcha de almacén automático de pequeñas cargas.",
+          "Máquina de temple de componentes para automoción.",          
         ],
-      },
+      },    
       {
-        name: "Ubesol - Adzeneta de Albaida",
-        company: "Mecalux S.A.",
-        period: "2008.1 - 2008.7",
+        name: "SISAMEX - México",
+        company: "GH Induction",
+        period: "2025.1 - 2025.9",
         description: [
-          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
-        ],
-      },
-      {
-        name: "Damel - Paterna",
-        company: "Mecalux S.A.",
-        period: "2008.8 - 2008.10",
-        description: [
-          "Desarrollo y puesta en marcha de buffer de macerado para productos alimenticios.",
-        ],
-      },
-      {
-        name: "Porcelanosa (Ceranco) - Villarreal",
-        company: "Mecalux S.A.",
-        period: "2008.10 - 2009.8",
-        description: [
-          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",
-        ],
-      },
-      {
-        name: "Porcelanosa (L'Antic Colonial) - Villarreal",
-        company: "Mecalux S.A.",
-        period: "2009.8 - 2010.9",
-        description: [
-          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
-        ],
-      },
-      {
-        name: "Idaho State Liquour Division - Idaho",
-        company: "Mecalux-Interlake",
-        period: "2010.9 - 2011.5",
-        description: [
-          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
-        ],
-      },
-      {
-        name: "Tempe (Grupo Inditex) - Elche",
-        company: "Mecalux S.A.",
-        period: "2011.5 - 2011.10",
-        description: [
-          "Retrofit de almacén automático de grandes cargas.",          
+          "Máquina de temple de componentes para automoción.",          
         ],
       },      
       {
-        name: "Simpta Pieces - Francia",
-        company: "Mecalux S.A.",
-        period: "2011.10 - 2011.12",
-        description: [
-          "Desarrollo y puesta en marcha de almacén vertical.",          
-        ],
-      },
-      {
-        name: "Saint Louis Sucre - Francia",
-        company: "Autónomo (Mecalux S.A.)",
-        period: "2012.9 - 2013.4",
-        description: [
-          "Desarrollo y puesta en marcha de grandes cargas.",          
-        ],
-      },
-      {
-        name: "President - Rusia",
-        company: "Autónomo (Mecalux S.A.)",
-        period: "2013.4 - 2014.4",
-        description: [
-          "Desarrollo y puesta en marcha de grandes cargas.",          
-        ],
-      },
-      {
-        name: "Ford Almussafes - Valencia",
-        company: "Órbita Ingeniería S.L.",
-        period: "2014.4 - 2019.3",
-        description: [
-          "Desarrollo y puesta en marcha de diversas máquinas de montaje, mecanizado y test de fugas para la planta de fabricación de motores.",          
-        ],
-      },
-      {
-        name: "Seat Martorell - Martorell",
-        company: "Órbita Ingeniería S.L.",
-        period: "2019.3 - 2019.9",
-        description: [
-          "Retrofit de proceso de cataforesis.",          
-        ],
-      },
-      {
-        name: "CIE Amaya - México",
+        name: "RollRite - EEUU",
         company: "GH Induction",
-        period: "2021.4 - 2021.6",
+        period: "2024.6 - 2024.12",
         description: [
-          "Máquina de temple y revenido de componentes para automoción.",          
+          "Máquina de temple de ejes.",          
         ],
       },
       {
-        name: "Valourec - Francia",
+        name: "FANASA - Mexico",
         company: "GH Induction",
-        period: "2021.4 - 2021.6",
+        period: "2024.1 - 2024.6",
         description: [
-          "Máquina de stress relief y swaging de tubos.",          
-        ],
-      },
-      {
-        name: "Zhengyi - China",
-        company: "GH Induction",
-        period: "2021.7 - 2022.4",
-        description: [
-          "Máquina de temple y revenido de componentes para automoción.",          
+          "Máquina de temple de componentes para automoción.",       
         ],
       },
       {
         name: "I+D",
         company: "GH Induction",
-        period: "2022.5 - 2022.6",
-        description: [
-          "Desarrollo de interfaz de comunicaciones e integración de nueva carta de control de generadores para controladores Rockwell.",          
-        ],
-      },
-      {
-        name: "IFA - Alemania",
-        company: "GH Induction",
-        period: "2022.6 - 2022.12",
-        description: [
-          "Máquina de temple y revenido de componentes para automoción.",          
+        period: "2023.6 - 2023.12",
+        description: [          
+          "Desarrollo de aplicación de monitorización de procesos de inducción.",          
         ],
       },      
       {
@@ -280,45 +191,141 @@ export const Data = {
         ],
       },      
       {
+        name: "IFA - Alemania",
+        company: "GH Induction",
+        period: "2022.6 - 2022.12",
+        description: [
+          "Máquina de temple y revenido de componentes para automoción.",          
+        ],
+      },      
+      {
         name: "I+D",
         company: "GH Induction",
-        period: "2023.6 - 2023.12",
-        description: [          
-          "Desarrollo de aplicación de monitorización de procesos de inducción.",          
+        period: "2022.5 - 2022.6",
+        description: [
+          "Desarrollo de interfaz de comunicaciones e integración de nueva carta de control de generadores para controladores Rockwell.",          
         ],
       },
       {
-        name: "FANASA - Mexico",
+        name: "Zhengyi - China",
         company: "GH Induction",
-        period: "2024.1 - 2024.6",
+        period: "2021.9 - 2022.4",
         description: [
-          "Máquina de temple de componentes para automoción.",       
+          "Máquina de temple y revenido de componentes para automoción.",          
         ],
       },
       {
-        name: "RollRite - EEUU",
+        name: "Valourec - Francia",
         company: "GH Induction",
-        period: "2024.6 - 2024.12",
+        period: "2021.7 - 2021.9",
         description: [
-          "Máquina de temple de ejes.",          
+          "Máquina de stress relief y swaging de tubos.",          
+        ],
+      },      
+      {
+        name: "CIE Amaya - México",
+        company: "GH Induction",
+        period: "2021.4 - 2021.6",
+        description: [
+          "Máquina de temple y revenido de componentes para automoción.",          
         ],
       },
       {
-        name: "SISAMEX - México",
-        company: "GH Induction",
-        period: "2025.1 - 2025.9",
+        name: "Seat Martorell - Martorell",
+        company: "Órbita Ingeniería S.L.",
+        period: "2019.3 - 2019.9",
         description: [
-          "Máquina de temple de componentes para automoción.",          
+          "Retrofit de proceso de cataforesis.",          
         ],
       },
       {
-        name: "GKN Alamance - EEUU",
-        company: "GH Induction",
-        period: "2025.6 - 2025.9",
+        name: "Ford Almussafes - Valencia",
+        company: "Órbita Ingeniería S.L.",
+        period: "2014.4 - 2019.3",
         description: [
-          "Máquina de temple de componentes para automoción.",          
+          "Desarrollo y puesta en marcha de diversas máquinas de montaje, mecanizado y test de fugas para la planta de fabricación de motores.",          
         ],
       },
+      {
+        name: "President - Rusia",
+        company: "Autónomo (Mecalux S.A.)",
+        period: "2013.4 - 2014.4",
+        description: [
+          "Desarrollo y puesta en marcha de grandes cargas.",          
+        ],
+      },
+      {
+        name: "Saint Louis Sucre - Francia",
+        company: "Autónomo (Mecalux S.A.)",
+        period: "2012.9 - 2013.4",
+        description: [
+          "Desarrollo y puesta en marcha de grandes cargas.",          
+        ],
+      },
+      {
+        name: "Simpta Pieces - Francia",
+        company: "Mecalux S.A.",
+        period: "2011.10 - 2011.12",
+        description: [
+          "Desarrollo y puesta en marcha de almacén vertical.",          
+        ],
+      },
+      {
+        name: "Tempe (Grupo Inditex) - Elche",
+        company: "Mecalux S.A.",
+        period: "2011.5 - 2011.10",
+        description: [
+          "Retrofit de almacén automático de grandes cargas.",          
+        ],
+      },      
+      {
+        name: "Idaho State Liquour Division - Idaho",
+        company: "Mecalux-Interlake",
+        period: "2010.9 - 2011.5",
+        description: [
+          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
+        ],
+      },       
+      {
+        name: "Porcelanosa (L'Antic Colonial) - Villarreal",
+        company: "Mecalux S.A.",
+        period: "2009.8 - 2010.9",
+        description: [
+          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
+        ],
+      },
+      {
+        name: "Porcelanosa (Ceranco) - Villarreal",
+        company: "Mecalux S.A.",
+        period: "2008.10 - 2009.8",
+        description: [
+          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",
+        ],
+      },
+      {
+        name: "Damel - Paterna",
+        company: "Mecalux S.A.",
+        period: "2008.8 - 2008.10",
+        description: [
+          "Desarrollo y puesta en marcha de buffer de macerado para productos alimenticios.",
+        ],
+      },
+      {
+        name: "Ubesol - Adzeneta de Albaida",
+        company: "Mecalux S.A.",
+        period: "2008.1 - 2008.7",
+        description: [
+          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
+        ],
+      },
+      {
+        name: "Orliman - La pobla de Vallbona",
+        company: "Mecalux S.A.",
+        period: "2007.10 - 2007.12",
+        description: [
+          "Puesta en marcha de almacén automático de pequeñas cargas.",
+        ],
+      },                     
     ],
   },
 };

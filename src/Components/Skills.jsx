@@ -1,9 +1,11 @@
 export const Skills = ({
   technicalLabel,
-  softLabel,
+  programmingLabel,
+  capacityLabel,
   languageLabel,
   technicalSkills,
-  softSkills,
+  capacitySkills,
+  programmingSkills,
   languageSkills,
 }) => {
   return (
@@ -16,11 +18,19 @@ export const Skills = ({
           </ul>
         </div>
       </section>
-      <section className="soft-skills section">
-        <h2 className="section-title">{softLabel}</h2>
+      <section className="programming-skills section">
+        <h2 className="section-title">{programmingLabel}</h2>
         <div className="skills__content bd-grid">
           <ul className="skills__data">
-            {softSkills.map((skill) => <Skill key={skill} skill={skill} />)}
+            {programmingSkills.map((skill) => <Skill key={skill} skill={skill} />)}
+          </ul>
+        </div>
+      </section>
+      <section className="capacity-skills section">
+        <h2 className="section-title">{capacityLabel}</h2>
+        <div className="skills__content bd-grid">
+          <ul className="skills__data">
+            {capacitySkills.map((skill) => <Skill key={skill} skill={skill} />)}
           </ul>
         </div>
       </section>
