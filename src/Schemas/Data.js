@@ -10,11 +10,11 @@ export const Data = {
   aboutMe: {
     label: "Perfil",
     description:
-      "Programador, capacitado para desarrollar aplicaciones de automatización e informáticas en diversas tecnologías y múltiples lenguajes de programación. \n\n Entusiasta de la programación y la electrónica.",
+      "Ingeniero de software, capacitado para desarrollar aplicaciones en diversas tecnologías y múltiples lenguajes de programación. \n\n Entusiasta de la programación y la electrónica.",
   },
   skills: {
     technicalLabel: "Tecnologías",
-    softLabel: "Skills",
+    softLabel: "Capacidades",
     languageLabel: "Idiomas",
     technicalSkills: [
       "TIA Portal",
@@ -23,12 +23,13 @@ export const Data = {
       "WinCC Unified,",
       "RSLogix",
       "FactoryTalk",  
-      "OPC-UA",    
+      "OPC-UA",  
+      ".NET",  
       "C,C++,C#",
       "WPF",
       "Docker",
       "React",
-      "Java",
+      "Javascript",
       "Nodejs",            
       "SQL",
       "Git",
