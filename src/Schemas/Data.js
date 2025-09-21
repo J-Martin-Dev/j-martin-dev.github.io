@@ -39,6 +39,8 @@ export const Data = {
       "FBD",
       "ST",
       "Codesys", 
+      "VBScript",
+      "Assembly x86",
       "C/C++",
       "C#",
       "XAML",
