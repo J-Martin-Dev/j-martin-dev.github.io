@@ -56,13 +56,13 @@ export const Data = {
       {
         label: "Visitar el perfil de Jesús Martín en LinkedIn",
         name: "linkedin",
-        url: "linkedin.com/in/jmartin-dev",
+        url: "http://linkedin.com/in/jmartin-dev",
         className: "bxl-linkedin-square",
       },
       {
         label: "Visitar el perfil de Jesús Martín en GitHub",
         name: "github",
-        url: "github.com/J-Martin-Dev",
+        url: "http://github.com/J-Martin-Dev",
         className: "bxl-github",
       },
     ],
