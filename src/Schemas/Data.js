@@ -25,6 +25,7 @@ export const Data = {
       "FactoryTalk", 
       "Phoenix Contact",
       "Omron/Yamaha RCX480",    
+      "Cognes 5000/7000",
       "Codesys", 
       "OPC-UA",  
       ".NET",  
