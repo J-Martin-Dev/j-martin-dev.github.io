@@ -22,7 +22,10 @@ export const Data = {
       "WinCC",
       "WinCC Unified,",
       "RSLogix",
-      "FactoryTalk",  
+      "FactoryTalk", 
+      "Phoenix Contact",
+      "Omron/Yamaha RCX480",    
+      "Codesys", 
       "OPC-UA",  
       ".NET",  
       "C,C++,C#",
@@ -71,7 +74,7 @@ export const Data = {
     works: [
       {
         title: "Ingeniero de control",
-        period: "2007.10 - 2013.6",
+        period: "2007.9 - 2012.9",
         company: "Mecalux S.A",
         description: [
           "Programación de maquinaria destinada a la almaceneria y manejo de cargas.",
@@ -82,7 +85,7 @@ export const Data = {
       },
       {
         title: "Ingeniero de control",
-        period: "2013.6 - 2014.12",
+        period: "2012.9 - 2014.4",
         company: "Autónomo",
         description: [
           "Programación de maquinaria destinada a la almaceneria y manejo de cargas.",
@@ -91,7 +94,7 @@ export const Data = {
       },
       {
         title: "Ingeniero de proyectos",
-        period: "2015.1 - 2019.12",
+        period: "2014.4 - 2020.1",
         company: "Órbita Ingenieria S.L.",
         description: [
           "Programación de maquinaria para el sector del automovil, cosmético y alimentación.",
@@ -157,7 +160,7 @@ export const Data = {
       {
         name: "Porcelanosa (Ceranco) - Villarreal",
         company: "Mecalux S.A.",
-        period: "20XX.xx - 20xx.xx",
+        period: "2008.10 - 2009.8",
         description: [
           "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",
         ],
@@ -165,7 +168,15 @@ export const Data = {
       {
         name: "Porcelanosa (L'Antic Colonial) - Villarreal",
         company: "Mecalux S.A.",
-        period: "20xx.xx - 20xx.xx",
+        period: "2009.8 - 2010.9",
+        description: [
+          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
+        ],
+      },
+      {
+        name: "Idaho State Liquour Division - Idaho",
+        company: "Mecalux-Interlake",
+        period: "2010.9 - 2011.5",
         description: [
           "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
         ],
@@ -173,23 +184,15 @@ export const Data = {
       {
         name: "Tempe (Grupo Inditex) - Elche",
         company: "Mecalux S.A.",
-        period: "20xx.xx - 20xx.xx",
+        period: "2011.5 - 2011.10",
         description: [
           "Retrofit de almacén automático de grandes cargas.",          
         ],
-      },
-      {
-        name: "Idaho State Liquour Division - Idaho",
-        company: "Mecalux-Interlake",
-        period: "20xx.xx - 20xx.xx",
-        description: [
-          "Desarrollo y puesta en marcha de almacén automático de grandes cargas.",          
-        ],
-      },
+      },      
       {
         name: "Simpta Pieces - Francia",
         company: "Mecalux S.A.",
-        period: "20xx.xx - 20xx.xx",
+        period: "2011.10 - 2011.12",
         description: [
           "Desarrollo y puesta en marcha de almacén vertical.",          
         ],
@@ -197,7 +200,7 @@ export const Data = {
       {
         name: "Saint Louis Sucre - Francia",
         company: "Autónomo (Mecalux S.A.)",
-        period: "20xx.xx - 20xx.xx",
+        period: "2012.9 - 2013.4",
         description: [
           "Desarrollo y puesta en marcha de grandes cargas.",          
         ],
@@ -205,7 +208,7 @@ export const Data = {
       {
         name: "President - Rusia",
         company: "Autónomo (Mecalux S.A.)",
-        period: "20xx.xx - 20xx.xx",
+        period: "2013.4 - 2014.4",
         description: [
           "Desarrollo y puesta en marcha de grandes cargas.",          
         ],
@@ -213,7 +216,7 @@ export const Data = {
       {
         name: "Ford Almussafes - Valencia",
         company: "Órbita Ingeniería S.L.",
-        period: "20xx.xx - 20xx.xx",
+        period: "2014.4 - 2019.3",
         description: [
           "Desarrollo y puesta en marcha de diversas máquinas de montaje, mecanizado y test de fugas para la planta de fabricación de motores.",          
         ],
@@ -221,7 +224,7 @@ export const Data = {
       {
         name: "Seat Martorell - Martorell",
         company: "Órbita Ingeniería S.L.",
-        period: "20xx.xx - 20xx.xx",
+        period: "2019.3 - 2019.9",
         description: [
           "Retrofit de proceso de cataforesis.",          
         ],
@@ -229,15 +232,56 @@ export const Data = {
       {
         name: "CIE Amaya - México",
         company: "GH Induction",
-        period: "20xx.xx - 20xx.xx",
+        period: "2021.4 - 2021.6",
         description: [
-          "Máquina de temple y revenido de tulipas.",          
+          "Máquina de temple y revenido de componentes para automoción.",          
         ],
       },
       {
-        name: "Induction Process Monitor - Valencia",
+        name: "Valourec - Francia",
         company: "GH Induction",
-        period: "20xx.xx - 20xx.xx",
+        period: "2021.4 - 2021.6",
+        description: [
+          "Máquina de stress relief y swaging de tubos.",          
+        ],
+      },
+      {
+        name: "Zhengyi - China",
+        company: "GH Induction",
+        period: "2021.7 - 2022.4",
+        description: [
+          "Máquina de temple y revenido de componentes para automoción.",          
+        ],
+      },
+      {
+        name: "I+D",
+        company: "GH Induction",
+        period: "2022.5 - 2022.6",
+        description: [
+          "Desarrollo de interfaz de comunicaciones e integración de nueva carta de control de generadores para controladores Rockwell.",          
+        ],
+      },
+      {
+        name: "IFA - Alemania",
+        company: "GH Induction",
+        period: "2022.6 - 2022.12",
+        description: [
+          "Máquina de temple y revenido de componentes para automoción.",          
+        ],
+      },      
+      {
+        name: "EMAG - Kazajistán",
+        company: "GH Induction",
+        period: "2023.1 - 2023.5",
+        description: [
+          "Máquina de temple y revenido de componentes para automoción.",          
+          "Desarrollo de estandar de control basado en ISA-S88 para controladores SIMATIC S7-1500.",
+        ],
+      },      
+      {
+        name: "I+D",
+        company: "GH Induction",
+        period: "2023.6 - 2023.12",
         description: [          
           "Desarrollo de aplicación de monitorización de procesos de inducción.",          
         ],
@@ -245,25 +289,33 @@ export const Data = {
       {
         name: "FANASA - Mexico",
         company: "GH Induction",
-        period: "20xx.xx - 20xx.xx",
+        period: "2024.1 - 2024.6",
         description: [
-          "Máquina de temple de cubos de ruedas.",       
+          "Máquina de temple de componentes para automoción.",       
         ],
       },
       {
         name: "RollRite - EEUU",
         company: "GH Induction",
-        period: "20xx.xx - 20xx.xx",
+        period: "2024.6 - 2024.12",
         description: [
           "Máquina de temple de ejes.",          
         ],
       },
       {
+        name: "SISAMEX - México",
+        company: "GH Induction",
+        period: "2025.1 - 2025.9",
+        description: [
+          "Máquina de temple de componentes para automoción.",          
+        ],
+      },
+      {
         name: "GKN Alamance - EEUU",
         company: "GH Induction",
-        period: "20xx.xx - 20xx.xx",
+        period: "2025.6 - 2025.9",
         description: [
-          "Máquina de temple de tulipas.",          
+          "Máquina de temple de componentes para automoción.",          
         ],
       },
     ],
